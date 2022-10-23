@@ -1,0 +1,45 @@
+.body{
+    background-color: #cecece;
+    width: 50%;
+    margin: 25px auto;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.card__container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    border-radius: 25px;
+    min-width: 700px;
+    justify-content: space-around;
+    grid-row-gap:1em;
+    height: 560px;
+    box-shadow: -20px 20px #000;
+}
+
+#complete_name{
+    font-weight: bolder;
+}
+#photo{
+    width: 8em;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    box-shadow: -5px 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .body{
+        width: 100%;
+        background-color: aqua;
+    }
+    .card__container{   
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;   
+    }
+    .card__container-aboutme{
+        width: 70%;
+    }
+    
+  }
