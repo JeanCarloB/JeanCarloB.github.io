@@ -51,4 +51,7 @@ div li a:hover{
         border-radius: 0;
 
     }
+    .card__container-aboutme{
+        padding: 10px;
+    }
   }
