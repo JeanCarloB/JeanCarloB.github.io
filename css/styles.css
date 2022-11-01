@@ -43,8 +43,7 @@ div li a:hover{
         padding: 0;
     }
     .card__container{
-        margin: 0;
-        padding:5px;
+        padding:10px;
         width: 100%;
         flex-wrap:wrap ;
         border: none;
