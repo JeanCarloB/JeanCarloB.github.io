@@ -39,10 +39,17 @@ div li a:hover{
     }
     .body{
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     .card__container{
         margin: 0;
-        padding:auto;
+        padding:5px;
         width: 100%;
+        flex-wrap:wrap ;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+
     }
   }
