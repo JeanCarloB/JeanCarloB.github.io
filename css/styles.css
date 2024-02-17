@@ -41,8 +41,8 @@ h1 {
 }
 
 .hero-imagen {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 20px;
     box-shadow: -5px 5px #000;
 }
@@ -117,7 +117,7 @@ h1 {
 
 .badges-contenedor {
     font-size: 19px;
-    font-weight: light;
+    font-weight: bold;
     margin: 10px 0;
 }
 
