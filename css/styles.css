@@ -1,3 +1,7 @@
+hr{
+    outline: 1px #287BFA solid;
+}
+
 .navbar {
     padding: .5rem;
     background-color: #287BFA;
@@ -95,17 +99,13 @@ h1 {
     border-radius: 50%;
 }
 
-.experiencia .row div {
-    height: 250px;
-}
-
 .experiencia .columna {
     padding: 20px;
     border: 2px solid #8080804d;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     transition: all .2 ease-in;
     transition: .5s;
 }
@@ -118,7 +118,7 @@ h1 {
 .badges-contenedor {
     font-size: 19px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .badge {
@@ -362,17 +362,29 @@ footer {
     .hero-inferior-imagen {
         max-width: 600px;
     }
-    .typewriter{
+    .typewriter h1{
         display: block;
+        border-right: .15em solid orange; /* The typwriter cursor */
     }
-
+      
 }
 
 @media screen and (max-width:767px) {
     .navbar-brand {
         display: none;
     }
-    .typewriter{
-        display: none;
+    .typewriter h1  {
+        display: block;
+        letter-spacing: normal;
+        white-space: wrap;
+        border-right: none;
     }
+    @keyframes typing {
+
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+
+      }
 }
